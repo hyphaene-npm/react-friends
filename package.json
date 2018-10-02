@@ -1,6 +1,6 @@
 {
     "name": "react-friends",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "a set of helpers / builders for react",
     "main": "dist/index.js",
     "scripts": {
