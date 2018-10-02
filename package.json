@@ -29,15 +29,7 @@
 	"homepage": "https://github.com/hyphaene/react-friends#readme",
 	"dependencies": {
 		"classnames": "^2.2.6",
-		"history": "^4.7.2",
-		"react-router-redux": "^4.0.8",
-		"recompose": "^0.30.0",
-		"redux": "^4.0.0",
-		"redux-actions": "^2.6.1",
-		"redux-devtools-extension": "^2.13.5",
-		"redux-persist": "^5.10.0",
-		"redux-thunk": "^2.3.0",
-		"redux-types": "^2.0.3"
+		"recompose": "^0.30.0"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
