@@ -1,10 +1,19 @@
-import {
-	withStateActiveTab,
-	styleTabHandler,
-	toggleHandler,
-	withToggle,
-	withStateOpen,
+import withData from './recompose/withState/withData';
+import withActiveTab from './recompose/withState/withActiveTab';
+import withLoaded from './recompose/withState/withLoaded';
+import withOpen from './recompose/withState/withOpen';
+// ------------------------------------ //
+import styleTabHandler from './recompose/withHandlers/items/styleTabHandler';
+import toggleHandler from './recompose/withHandlers/items/toggleHandler';
+// ------------------------------------ //
+import withTabHandler from './recompose/withHandlers/composed/withTabHandler';
+// ------------------------------------ //
+export {
+	withActiveTab,
 	withData,
-} from './recomposeHelpers.js';
-
-export { withStateActiveTab, styleTabHandler, toggleHandler, withToggle, withStateOpen, withData };
+	withLoaded,
+	withOpen,
+	toggleHandler,
+	styleTabHandler,
+	withTabHandler,
+};
