@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-exports.withTabHandler = exports.styleTabHandler = exports.toggleHandler = exports.withOpen = exports.withLoaded = exports.withData = exports.withActiveTab = undefined;
+exports.blank = exports.withTabHandler = exports.styleTabHandler = exports.toggleHandler = exports.withOpen = exports.withLoaded = exports.withData = exports.withActiveTab = undefined;
 
 var _withData = require('./recompose/withState/withData');
 
@@ -33,8 +33,21 @@ var _withTabHandler = require('./recompose/withHandlers/composed/withTabHandler'
 
 var _withTabHandler2 = _interopRequireDefault(_withTabHandler);
 
+var _blank = require('./helpers/blank');
+
+var _blank2 = _interopRequireDefault(_blank);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// ------------------------------------ //
+// -----------  EXPORTS ------------- //
+// ------------------------------------ //
+
+// ------------------------------------ //
+
+// ------------------------------------ //
+// ------------------------------------ //
+// -----------  RECOMPOSE ------------- //
 // ------------------------------------ //
 exports.withActiveTab = _withActiveTab2.default;
 exports.withData = _withData2.default;
@@ -43,6 +56,9 @@ exports.withOpen = _withOpen2.default;
 exports.toggleHandler = _toggleHandler2.default;
 exports.styleTabHandler = _styleTabHandler2.default;
 exports.withTabHandler = _withTabHandler2.default;
+exports.blank = _blank2.default;
 // ------------------------------------ //
 
+// ------------------------------------ //
+// -----------  HELPERS ------------- //
 // ------------------------------------ //
