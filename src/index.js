@@ -1,3 +1,6 @@
+// ------------------------------------ //
+// -----------  RECOMPOSE ------------- //
+// ------------------------------------ //
 import withData from './recompose/withState/withData';
 import withActiveTab from './recompose/withState/withActiveTab';
 import withLoaded from './recompose/withState/withLoaded';
@@ -8,6 +11,14 @@ import toggleHandler from './recompose/withHandlers/items/toggleHandler';
 // ------------------------------------ //
 import withTabHandler from './recompose/withHandlers/composed/withTabHandler';
 // ------------------------------------ //
+
+// ------------------------------------ //
+// -----------  HELPERS ------------- //
+// ------------------------------------ //
+import blank from './helpers/blank';
+// ------------------------------------ //
+// -----------  EXPORTS ------------- //
+// ------------------------------------ //
 export {
 	withActiveTab,
 	withData,
@@ -16,4 +27,5 @@ export {
 	toggleHandler,
 	styleTabHandler,
 	withTabHandler,
+	blank,
 };
