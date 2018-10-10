@@ -26,7 +26,11 @@ import {
 	redirectTo,
 } from './helpers/redirectTo';
 // ------------------------------------ //
-// -----------  EXPORTS ------------- //
+// -----------  DECORATORS ------------ //
+// ------------------------------------ //
+import loader from './decorators/loader';
+// ------------------------------------ //
+// ------------- EXPORTS -------------- //
 // ------------------------------------ //
 export {
 	withActiveTab,
@@ -46,4 +50,5 @@ export {
 	redirectToLogin,
 	redirectToDashboard,
 	redirectTo,
+	loader,
 };
