@@ -30,6 +30,10 @@ import {
 // ------------------------------------ //
 import loader from './decorators/loader';
 // ------------------------------------ //
+// -----------  LOADABLE ------------ //
+// ------------------------------------ //
+import { NullLoadable, SpinnerLoadable } from './loadable';
+// ------------------------------------ //
 // ------------- EXPORTS -------------- //
 // ------------------------------------ //
 export {
@@ -51,4 +55,6 @@ export {
 	redirectToDashboard,
 	redirectTo,
 	loader,
+	NullLoadable,
+	SpinnerLoadable,
 };
