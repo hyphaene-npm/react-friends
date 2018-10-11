@@ -1,9 +1,9 @@
 import Loadable from 'react-loadable';
 import Loading from '@whatsonweb/loading';
 
-export const NullLoadable = path =>
+export const NullLoadable = callback =>
 	Loadable({
-		loader: () => import(path),
+		loader: () => callback(),
 		loading: () => null,
 	});
 
