@@ -16,6 +16,7 @@ import withTabHandler from './recompose/withHandlers/composed/withTabHandler';
 // -----------  HELPERS ------------- //
 // ------------------------------------ //
 import blank from './helpers/blank';
+import href from './helpers/href';
 // ------------------------------------ //
 import { ROOT, composeRoute, getPathID, getComplexPathID } from './helpers/composeRoute';
 import {
@@ -45,6 +46,7 @@ export {
 	styleTabHandler,
 	withTabHandler,
 	blank,
+	href,
 	ROOT,
 	composeRoute,
 	getPathID,
