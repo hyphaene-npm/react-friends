@@ -7,8 +7,8 @@ export const NullLoadable = callback =>
 		loading: () => null,
 	});
 
-export const SpinnerLoadable = path =>
+export const SpinnerLoadable = callback =>
 	Loadable({
-		loader: () => import(path),
+		loader: () => callback(),
 		loading: Loading,
 	});
