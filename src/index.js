@@ -1,19 +1,21 @@
 // ------------------------------------ //
 // -----------  RECOMPOSE ------------- //
-// state ----------------------------- //
+// state ------------------------------ //
 import withData from './recompose/withState/withData';
 import withActiveTab from './recompose/withState/withActiveTab';
 import withLoaded from './recompose/withState/withLoaded';
 import withOpen from './recompose/withState/withOpen';
-// handlers items -------------------- //
+// handlers items --------------------- //
 import styleTabHandler from './recompose/withHandlers/items/styleTabHandler';
 import toggleHandler from './recompose/withHandlers/items/toggleHandler';
-// handlers ------------------------ //
+// handlers --------------------------- //
 import withTabHandler from './recompose/withHandlers/composed/withTabHandler';
-// mixed ( state + handlers ----------------------------- //
+// mixed ( state + handlers ) --------- //
 import handleTabs from './recompose/mixed/handleTabs';
+// lifecycle ------------------------- //
+import setMethods from './recompose/lifecycle/setMethods';
 // ------------------------------------ //
-// -----------  HELPERS ------------- //
+// -----------  HELPERS --------------- //
 // ------------------------------------ //
 import blank from './helpers/blank';
 import href from './helpers/href';
@@ -31,7 +33,7 @@ import {
 // ------------------------------------ //
 import loader from './decorators/loader';
 // ------------------------------------ //
-// -----------  LOADABLE ------------ //
+// -----------  LOADABLE -------------- //
 // ------------------------------------ //
 import { NullLoadable, SpinnerLoadable } from './loadable';
 // ------------------------------------ //
@@ -60,4 +62,5 @@ export {
 	NullLoadable,
 	SpinnerLoadable,
 	handleTabs,
+	setMethods,
 };
