@@ -1,17 +1,17 @@
 // ------------------------------------ //
 // -----------  RECOMPOSE ------------- //
-// ------------------------------------ //
+// state ----------------------------- //
 import withData from './recompose/withState/withData';
 import withActiveTab from './recompose/withState/withActiveTab';
 import withLoaded from './recompose/withState/withLoaded';
 import withOpen from './recompose/withState/withOpen';
-// ------------------------------------ //
+// handlers items -------------------- //
 import styleTabHandler from './recompose/withHandlers/items/styleTabHandler';
 import toggleHandler from './recompose/withHandlers/items/toggleHandler';
-// ------------------------------------ //
+// handlers ------------------------ //
 import withTabHandler from './recompose/withHandlers/composed/withTabHandler';
-// ------------------------------------ //
-
+// mixed ( state + handlers ----------------------------- //
+import handleTabs from './recompose/mixed/handleTabs';
 // ------------------------------------ //
 // -----------  HELPERS ------------- //
 // ------------------------------------ //
@@ -59,4 +59,5 @@ export {
 	loader,
 	NullLoadable,
 	SpinnerLoadable,
+	handleTabs,
 };
