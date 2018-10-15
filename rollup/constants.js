@@ -26,6 +26,7 @@ export const PropTypes = 'prop-types';
 export const reactDom = 'react-dom';
 export const WHLoading = '@whatsonweb/loading';
 export const createHistory = 'history/createHashHistory';
+export const withLifeCycle = '@hocs/with-lifecycle';
 
 export const globals = {
 	react,
@@ -37,6 +38,7 @@ export const globals = {
 	classnames,
 	[WHLoading]: 'Loading',
 	[createHistory]: createHistory,
+	[withLifeCycle]: withLifeCycle,
 };
 
 export const external = [
@@ -49,5 +51,6 @@ export const external = [
 	classnames,
 	WHLoading,
 	createHistory,
+	withLifeCycle,
 ];
 export const mainInput = 'src/index.js';

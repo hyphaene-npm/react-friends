@@ -115,6 +115,13 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@hocs/with-lifecycle@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@hocs/with-lifecycle/-/with-lifecycle-0.5.0.tgz#358db86746be1ade689916a2ca0d7d5cbeef1a92"
+  integrity sha512-gf8pxJO3dovuEeJ3zLdOTGcE8z9fkAy2SEhDtf57zMrlU7hXCkOa6P9RR992FXjuJXTyb445Zk6QNrgpi2aw6Q==
+  dependencies:
+    react-display-name "^0.2.4"
+
 "@storybook/addon-actions@3.4.11":
   version "3.4.11"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.4.11.tgz#a51418c5b684fd3df2788c19ef266845d6068baf"
@@ -6889,6 +6896,11 @@ react-dev-utils@^5.0.0:
     sockjs-client "1.1.5"
     strip-ansi "3.0.1"
     text-table "0.2.0"
+
+react-display-name@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/react-display-name/-/react-display-name-0.2.4.tgz#e2a670b81d79a2204335510c01246f4c92ff12cf"
+  integrity sha512-zvU6iouW+SWwHTyThwxGICjJYCMZFk/6r/+jmOdC7ntQoPlS/Pqb81MkxaMf2bHTSq9TN3K3zX2/ayMW/jCtyA==
 
 react-docgen@^3.0.0-beta11:
   version "3.0.0-rc.1"

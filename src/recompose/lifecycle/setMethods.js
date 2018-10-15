@@ -1,13 +1,12 @@
-import { lifecycle } from 'recompose';
+import withLifecycle from '@hocs/with-lifecycle';
 
-const setMethods = (onMount, onUnmount = null) =>
-	lifecycle({
-		componentDidMount() {
-			this.props.setMethods(onMount);
+const setMethods = getMethods =>
+	withLifecycle({
+		onDidMount(props) {
+			props.setMethods(getMethods(props));
 		},
-		componentWillUnmount() {
-			this.props.setMethods(onUnmount);
+		onWillUnmount(props) {
+			props.setMethods(null);
 		},
 	});
-
 export default setMethods;
