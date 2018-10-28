@@ -1,11 +1,11 @@
 import { withHandlers } from 'recompose';
 
 import styleTabHandler from '../items/styleTabHandler';
-import toggleHandler from '../items/toggleHandler';
+import activeTabHandler from '../items/activeTabHandler';
 
 const withTabHandler = withHandlers({
-	onToggle: toggleHandler,
-	onStyleTab: styleTabHandler,
+	onChangeTab: activeTabHandler,
+	onStyleTab: styleTabHandler
 });
 
 export default withTabHandler;
