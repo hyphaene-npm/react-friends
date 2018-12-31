@@ -7,7 +7,6 @@ import withLoaded from './recompose/withState/withLoaded';
 import withOpen from './recompose/withState/withOpen';
 // handlers items --------------------- //
 import styleTabHandler from './recompose/withHandlers/items/styleTabHandler';
-import toggleHandler from './recompose/withHandlers/items/toggleHandler';
 // handlers --------------------------- //
 import withTabHandler from './recompose/withHandlers/composed/withTabHandler';
 // mixed ( state + handlers ) --------- //
@@ -44,7 +43,6 @@ export {
 	withData,
 	withLoaded,
 	withOpen,
-	toggleHandler,
 	styleTabHandler,
 	withTabHandler,
 	blank,
