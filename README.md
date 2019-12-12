@@ -1,5 +1,7 @@
 # Purpose
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hyphaene-npm/react-friends.svg)](https://greenkeeper.io/)
+
 react-friends is a set of helpers designed to facilitate react development by preparing usefull helpers designed to solve commons problems
 For example, some helpers enhance components to automatically be ready to handle tabs ( activeTab value and related setters )
 It is therefore opiniated since it heavily relies on recompose for example.
